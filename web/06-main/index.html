@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: #e6a8c7;
+        }
+
+        h1 {
+            color: #EDD2F9;
+            text-align: center;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        h2 {
+            color: #B878D6;
+            text-align: center;
+            text-shadow: 2px 2px 2px black
+        }
+
+        p {
+            font-size: 1.8rem;
+            color: #D4A4EB;
+            text-align: center;
+            font-family: 'PT Sans Narrow', sans-serif;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        .container {
+            display: flex;
+            /* Establece el contenedor como un contenedor flex */
+            justify-content: center;
+            /* Centra los elementos a lo largo del eje principal horizontal */
+            align-items: center;
+            /* Centra los elementos a lo largo del eje secundario vertical */
+            height: 200px;
+            /* alto del contenedor */
+        }
+
+        .box {
+            width: 100px;
+            /* ancho */
+            height: 100px;
+            /* alto */
+            background-color: #e6a8c7;
+            /* ¡Qué colores con el fondo!  🥳 */
+            background-image: url(assets/wopi.png);
+            background-size: 100px;
+            background-position: 1px;
+            background-repeat: no-repeat;
+        }
+
+        main {
+            background-color: #dba0be;
+            padding: 20px;
+        }
+
+        .padre {
+            display: flex;
+        }
+
+        aside {
+            background-image: url(assets/mi.gif);
+            background-repeat: no-repeat;
+            width: 30%;
+            background-size: cover;
+        }
+
+        section {
+            width: 70%;
+            margin: 65px;
+        }
+
+        .hijo {
+            text-align: center;
+        }
+
+        header {
+            background-color: #e6a8c7;
+
+        }
+
+        footer {
+            background-position: 50px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .hijo1 {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Yellowtail&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- contenedor utilizando div -->
+    <header>
+        <div class="container">
+            <div class="box"></div>
+            <div class="hijo">
+                <h1>
+                    Trabajo 06 - Uso de display
+                </h1>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <div class="padre">
+
+            <section>
+
+                <h2>
+                    ¿Qué propiedad de CSS se utiliza para convertir el contenedor en un contenedor flex?
+                </h2>
+
+                <p>-La propiedad de CSS que se utiliza es display</p>
+
+                <h2>
+                    ¿Qué propiedad de CSS se utiliza para centrar los elementos dentro del contenedor a lo largo del eje
+                    principal horizontal?
+                </h2>
+
+                <p>La propiedad de CSS que se utliza para centrar los elementos es: justify-content: center;</p>
+
+                <h2>
+                    ¿Qué propiedad de CSS se utiliza para centrar los elementos dentro del contenedor a lo largo del eje
+                    secundario vertical?
+                </h2>
+
+                <p>La propiedad de CSS se utiliza para centrar los elementos es: align-items: center;</p>
+
+                <h2>
+                    ¿Cuál es la altura del contenedor especificada en el código?
+                </h2>
+
+                <p>La altura del contenedor es de 200px</p>
+
+                <h2>
+                    ¿Cuál es el ancho de las cajas dentro del contenedor?
+                </h2>
+
+                <p>El ancho de las cajas es de 100px</p>
+
+                <h2>
+                    ¿Qué color de fondo se establece para las cajas dentro del contenedor?
+                </h2>
+
+                <p>El color que se establece es #e6a8c7</p>
+
+                <h2>
+                    ¿Qué etiqueta HTML se utiliza para crear el contenedor?
+                </h2>
+
+                <p>La etiqueta de HTML que se utiliza es div</p>
+
+                <h2>
+                    ¿Qué clase se aplica al contenedor para aplicar los estilos CSS?
+                </h2>
+
+                <p>La clase que se le aplica al contenedor es container</p>
+
+                <h2>
+                    ¿Qué clase se aplica a las cajas dentro del contenedor para aplicar los estilos CSS?
+                </h2>
+
+                <p>La clase que se le aplica a las cajas es .box</p>
+
+                <h2>
+                    ¿Cuál es el propósito principal del código CSS proporcionado?
+                </h2>
+
+                <p>El propósito es hacer una caja roja en el medio de la pagina</p>
+            </section>
+            <aside>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="papa">
+            <div class="hijo1"><img src="assets/foote.gif" alt="" width="1600px" height="650px"></div>
+            <div class="hijo1">
+                <p>Isabella San Martin</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P&J</title>
+    <style>
+        body {
+            background-image: url(assets/bck.png);
+            margin-top: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-bottom: 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1400px;
+            margin: auto;
+            padding-top: 50px;
+            background-color: #ffffff;
+            justify-content: center;
+            box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 13px 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
+            margin-top: 50px;
+            border-left-width: 3px;
+            border-left-style: solid;
+            border-top-width: 3px;
+            border-top-style: solid;
+            border-right-width: 3px;
+            border-right-style: solid;
+            border-bottom-width: 3px;
+            border-bottom-style: solid;
+            border-color: black;
+            border-radius: 100px;
+        }
+
+        .producto {
+            width: 20%;
+            padding-bottom: 30px;
+            margin: 1%;
+            padding-top: 30px;
+            
+        }
+
+        .img-pr {
+            width: 100%;
+        }
+
+        p {
+            color: black;
+            font-family: 'Mukta', sans-serif;
+            font-size: 2em;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: x-large;
+            border-color: rgb(190, 88, 192);
+            background-color: rgb(149, 207, 255);
+            border-radius: 50px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+
+        h2,h3 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        h4{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            text-align: center;
+            background-color: #f1c5f5;
+        }
+
+
+        .champi {
+            height: 280px;
+            width: 280px;
+        }
+
+        .tortu {
+            height: 280px;
+            width: 280px;
+        }
+
+        .pollito {
+            height: 280px;
+            width: 280px;
+        }
+
+        header {
+            background: rgb(227, 252, 255);
+            background: radial-gradient(circle, rgba(227, 252, 255, 1) 20%, rgba(122, 233, 235, 1) 100%);
+            padding-bottom: 15px;
+            padding-top: 15px;
+            border-bottom-width: 0px;
+            border-bottom-style: solid;
+        }
+
+        .poke {
+            height: 300px;
+        }
+
+        .text {
+            background-color: #a3e3f8;
+
+
+        }
+
+        span {
+            color: #4AD3D3;
+            font-family: 'Fira Sans', sans-serif;
+        }
+
+        picture {
+            justify-content: center;
+            display: flex;
+        }
+
+        .clase {
+            width: 100%;
+        }
+        footer{
+            background-image: url(assets/fot.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-bottom: 35px;
+            padding-top: 20px;
+        }
+        ul{
+            display: flex;
+            text-align: right;
+            text-decoration: none;
+            list-style: none;
+            padding-bottom: 10px;
+            justify-content: space-around;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            text-shadow: 1px 1px 1px #4400ff;
+        }
+
+        nav{
+            border-top-style: solid;
+            border-top-width: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            background-color: #e8fffd94;
+        }
+
+        li{
+            padding-top: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 2em;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Plush & Joy</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="#pokemon">Pokemon</a></li>
+            <li><a href="#minecraft">Minecraft</a></li>
+            <li><a href="">Personajes</a></li>
+        </ul>
+    </nav>
+
+    <div class="container" id="minecraft">
+        <div class="clase">
+            <picture>
+                <img src="assets/mclogo.png" alt="" height="50px">
+            </picture>
+        </div>
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/mcslime-removebg-preview.png" alt="" class="img-pr">
+            </div>
+            <div>
+                <p>Slime Plush
+                    <br> <span> $2500 </span><br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/perico.png" alt="" class="img-pr">
+            </div>
+            <div>
+                <p>Parrot Plush
+                    <br><span>Free</span> <br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/beeplush.png" alt="" class="img-pr">
+            </div>
+            <div>
+                <p>Bee Plush
+                    <br><span>$3000</span> <br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/creeper.png" alt="" class="img-pr">
+            </div>
+            <div>
+                <p>Creeper Plush
+                    <br><span>$3200</span><br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/tortu.png" alt="" class="tortu">
+            </div>
+            <div>
+                <p>Turtle Plush
+                    <br><span>$3000</span> <br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/champivaca.png" alt="" class="champi">
+            </div>
+            <div>
+                <p>Mooshroom Plush
+                    <br><span>$1800</span><br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/allay.png" alt="" class="champi">
+            </div>
+            <div>
+                <p>Allay Plush
+                    <br><span>$3500</span><br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/pollito.png" alt="" class="pollito">
+            </div>
+            <div>
+                <p>Chick Plush
+                    <br><span>$2000</span><br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="text">
+                <img src="assets/cattt.png" alt="" class="pollito">
+            </div>
+            <div>
+                <p>Cat Plush
+                    <br><span>$2000</span><br>
+                    <button><a href="">COMPRAR</a></button>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="pokemon">
+        <div class="clase">
+            <picture>
+                <img src="assets/ re.png" alt="" height="90px">
+            </picture>
+        </div>
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/sylveon.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Sylveon Plush
+                    <br><span>$2800</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/umbreon.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Umbreon Plush <br>
+                    <span>$2800</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/geg.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Gengar Plush <br>
+                    <span>$3500</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/dusk.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Duskull Plush <br><span>$2000</span></p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/mimikyu.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Mimikyu Plush <br>
+                    <span>$2500</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/woop.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Shiny Wooper Plush <br>
+                    <span>$2000</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/row.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Rowlet Plush <br>
+                    <span>$2600</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/bulba.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Bulbasaur Plush <br>
+                    <span>$3000</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+        <div class="producto">
+
+            <div class="text">
+                <img src="assets/pip.png" alt="" class="poke">
+            </div>
+            <div>
+                <p>Piplup Plush <br>
+                    <span>$2600</span>
+                </p>
+            </div>
+            <div>
+                <button><a href="">COMPRAR</a></button>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <h3>Nuestras redes sociales</h3>
+        <ul>
+            <li> 
+                <a href="#"> <img src="assets/wsp.webp" alt="" height="50px"></a>
+            </li>
+            <li>
+                <a href="#"><img src="assets/ig.png" alt="" height="45px"></a>
+            </li>
+            <li>  
+                <a href="#"><img src="assets/fb.png" alt="" height="45px"></a>
+            </li>
+            <li>
+                <a href=""><img src="assets/twt.jpg" alt="" height="50px"></a>
+            </li>
+        </ul>
+
+        <h4>©Copyright 2023</h4>
+       
+    </footer>
+</body>
+
+</html>

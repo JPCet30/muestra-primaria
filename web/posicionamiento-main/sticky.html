@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+       .container {
+           height: 2000px;
+         
+       }
+
+       header {
+           height: 50px;
+           background-color: #332424;
+           position: sticky; /* el posicionamiento pegajoso */
+           top: 0;
+           color: antiquewhite;
+           z-index: 999; /* Capa z para controlar el apilamiento de elementos */
+       }
+
+       main {
+           margin-top: 50px; /* Para dejar espacio debajo del encabezado fijo */
+       }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+       <header>
+
+           <h1>Encabezado Sticky</h1>
+       </header>
+      
+       <main>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum ex sed nisi aliquam, eu
+               sollicitudin odio volutpat. Nam cursus, mauris sed finibus pulvinar, nunc odio dignissim nunc, id
+               malesuada erat est ut nisl. Etiam rhoncus lorem ut metus efficitur aliquet.</p>
+           <p>Donec vel velit quam. Sed eu scelerisque risus. Sed posuere congue tristique. Nullam dapibus metus id
+               nisi efficitur, non dapibus arcu varius. Sed condimentum eleifend nunc eget consectetur. Curabitur
+               commodo nulla nec erat auctor vulputate. Curabitur condimentum justo nec mi rutrum, at facilisis
+               lectus pulvinar. Aliquam vestibulum, risus at ultrices luctus, velit felis gravida metus, vel
+               lobortis velit velit ut purus.</p>
+           <p>Etiam tempus, nulla at pulvinar dapibus, lorem nibh eleifend orci, a pellentesque erat quam sed ipsum.
+               Suspendisse in ex augue. Integer consequat arcu vel metus rutrum, non consectetur felis vestibulum.
+               Vivamus bibendum, dui in ultricies mattis, sapien sem eleifend orci, ac euismod risus risus et metus.
+               In vel enim et ligula consequat eleifend. Sed ut eros convallis, feugiat sapien eget, sagittis velit.
+               Sed tincidunt pretium turpis. Aenean iaculis massa id diam dapibus, non consectetur arcu auctor.</p>
+       </main>
+   </div>
+</body>
+<p>
+    ¿Cuál es la diferencia principal entre position relative y position absolute?
+    la principal diferencia es que absolute permite salirnos del container padre, en cambio realative no
+</p>
+<p>
+    ¿Qué valor de position se utiliza por defecto para los elementos HTML?
+    el valor por defecto es el eatatico
+</p>
+<p>
+    ¿Qué propiedad se utiliza para establecer la capa de apilamiento de elementos superpuestos?
+ la propiedad que se utiliza es  z-index
+</p>
+<p>
+    ¿Cuándo se utiliza position fixed en CSS?
+se utiliza cuando necesitamos un elemento fijo en el documento
+</p>
+<p>
+    
+    ¿Cómo se comporta un elemento con position sticky al desplazarse?
+el syticky se comporta moviendose junto con el documento
+</p>
+<p>
+    ¿Cuál es el valor de position adecuado para un elemento que se desea que siga el flujo normal del documento?
+el valor es position static
+</p>
+<p>
+    ¿Cuál es la forma más común de mover un elemento con position relative?
+las formas mas comunes son top, bottom, left y rigth
+</p>
+<p>
+    ¿En qué casos se puede utilizar z-index para controlar el orden de apilamiento de elementos?
+cuando quiero superponer uno o varios elementos
+</p>
+<p>
+    ¿Qué sucede cuando dos elementos tienen el mismo valor de z-index? Prueba su resultado y responde.
+    se superponen los elementos y predomina el elemento 2
+</p>
+<p>
+    ¿Cuál es la principal diferencia entre position sticky y position fixed?
+la rincipal diferencia es que si bien al moverse por la pagina ambos quedan fijos, uno se mueve con la pagina y otro esta sobre la pagina.
+
+</p>
+<p>
+    En el siguiente ejemplo, ¿el valor top y right es en relación a qué elemento?
+    es en relacion al box
+
+</p>
+<p>
+    En el ejemplo anterior ¿qué agregarías para que la caja hija esté dentro de la caja padre?
+    le pones una posicion relativa al padre 
+</p>
+</html>

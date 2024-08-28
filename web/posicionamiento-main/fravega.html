@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fravega</title>
+    <style>
+        .container {
+            width: 600px;
+            height: 160px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .containerbox {
+            width: 290px;
+            height: 150px;
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+            gap: 10px;
+        }
+
+        .box1 {
+            width: 97px;
+            height: 150px;
+            background-color: rgb(197, 106, 156)
+        }
+
+        .contenido1 {
+            width: 193px;
+            height: 150px;
+            background-color: white;
+            text-align: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: inherit;
+            justify-content: center;
+            margin-left: 10px;
+
+
+        }
+
+        .box2 {
+            width: 97px;
+            height: 150px;
+            background-color: rgb(137, 83, 153);
+
+        }
+
+        .contenido2 {
+            width: 193px;
+            height: 150px;
+            background-color: white;
+            text-align: center;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: inherit;
+            justify-content: center;
+            margin-left: 20px;
+
+        }
+
+        button {
+            border-radius: 0;
+            border-color: rgb(98, 63, 131);
+            background-color: white;
+            border-top-width: 0.7px;
+            border-bottom-width: 0.7px;
+            border-left-width: 0.7px;
+            border-right-width: 0.7px;
+            color: rgb(98, 63, 131);
+            font-size: 0.6em;
+
+        }
+
+        p {
+            font-size: 0.6em;
+        }
+
+        .descubrilas {
+            background-color: rgb(197, 106, 156);
+            font-size: 0.74em;
+            color: whitesmoke;
+        }
+
+        .fravega {
+            background-color: rgb(137, 83, 153);
+            font-size: 0.74em;
+            color: whitesmoke;
+        }
+
+        span {
+
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .caja {
+            position: absolute;
+            left: 50px;
+
+
+        }
+
+        .sillon {
+            position: absolute;
+            left: 50px;
+
+
+        }
+
+        .container1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .descuento {
+            background-color: rgb(197, 40, 119);
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 12px;
+        }
+
+        .numero {
+            font-size: 23px;
+        }
+
+        .hasta {
+            font-size: 10px;
+            color: white;
+        }
+
+        .equis {
+            display: flex;
+            color: white;
+
+
+        }
+        .oferta{
+            position: relative;
+            width: 200px;
+            background-color: whitesmoke;
+        }
+        .container1{
+            background-color: rgb(211, 211, 211);
+        }
+    .texto{
+        font-size: 10px;
+        margin: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="containerbox">
+            <div class="box1">
+
+            </div>
+            <div class="contenido1">
+                <div>
+                    <span class="descubrilas"> <strong>DESCUBRILAS</strong></span>
+
+                </div>
+
+                <div>
+                    <p>
+                        <strong>No te pierdas las mejores ofertas al precio mas bajo</strong>
+                    </p>
+
+                </div>
+                <div>
+                    <button>
+                        VER MAS
+                    </button>
+
+                </div>
+                <img src="caja.png" alt="cajita" height="70px" width="70px" class="caja">
+
+
+            </div>
+
+        </div>
+
+
+        <div class="containerbox">
+            <div class="box2">
+
+            </div>
+            <div class="contenido2">
+                <div>
+                    <span class="fravega"> <strong> FRÁVEGA CASA </strong></span>
+                </div>
+                <div>
+                    <p>
+                        <strong>Hasta 40% OFF en colchones, muebles y articulos de decoracion seleccionados</strong>
+                    </p>
+                </div>
+                <div>
+
+                    <button>
+                        VER MAS <div>
+                            HASTA 30% OFF
+
+                        </div>
+                    </button>
+                </div>
+                <img src="sillon.png" alt="sillon" height="70px" width="70px" class="sillon">
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container1">
+        <div class="oferta">
+            <div class="descuento">
+                <div class="hasta">
+                    Hasta
+
+                </div>
+                <div>
+
+                    <div class="equis">
+                        <div class="numero">
+                            <strong>25</strong>
+                        </div>
+                        <div>
+                            <div class="hasta">
+                                <strong>%</strong>
+
+                            </div>
+                            <div class="hasta">
+                                off
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <img src="https://picsum.photos/200/100" alt="">
+
+            </div>
+            <div class="texto">
+                Lorem ipsum, dolor sit amet consectetur adipisicing.
+
+            </div>
+        </div>
+        <div class="oferta">
+            <div class="descuento">
+                <div class="hasta">
+                    Hasta
+
+                </div>
+                <div>
+
+                    <div class="equis">
+                        <div class="numero">
+                            <strong>45</strong>
+                        </div>
+                        <div>
+                            <div class="hasta">
+                                <strong>%</strong>
+
+                            </div>
+                            <div class="hasta">
+                                off
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <img src="https://picsum.photos/200/100" alt="">
+
+            </div>
+            <div class="texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+            </div>
+
+        </div>
+        <div class="oferta">
+            <div class="descuento">
+                <div class="hasta">
+                    Hasta
+
+                </div>
+                <div>
+
+                    <div class="equis">
+                        <div class="numero">
+                            <strong>30</strong>
+                        </div>
+                        <div>
+                            <div class="hasta">
+                                <strong>%</strong>
+
+                            </div>
+                            <div class="hasta">
+                                off
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div>
+                <img src="https://picsum.photos/200/100" alt="">
+
+            </div>
+            <div class="texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

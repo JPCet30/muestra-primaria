@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: rgb(141,155,200);
+background: radial-gradient(circle, rgba(141,155,200,1) 0%, rgba(86,92,131,1) 55%, rgba(54,60,99,1) 90%);
+}
+.slide-content{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    border-radius: 25px;
+    background-color: #FFF;
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1B263B;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #1B263B;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #FFF;
+    padding: 3px;
+}
+.card-image .card-image{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 50%;
+border: 4px solid #1B263B;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #1B263B;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.div{
+    display: flex;
+}
+a{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #1B263B;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+#a{
+    border: none;
+    font-size: 16px;
+    color: #1B263B;
+    padding: 7px 15px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#um:hover{
+    background: #67c2ce;
+}
+#syl:hover{
+    background: #df87eb;
+}
+#ral:hover{
+    background: #1136db;
+}
+#es:hover{
+    background: #9b5795;
+}
+#dra:hover{
+    background: #ddcf11;
+}
+#sla:hover{
+    background: #ebd7bd;
+}
+#pika:hover{
+    background: rgba(255, 243, 111, 0.993);
+}
+#mien:hover{
+    background: rgb(120, 89, 150);
+}
+#rab:hover{
+    background: rgba(211, 71, 71, 0.993);
+}
+#art:hover{
+    background: #923fff;
+}
+#slu:hover{
+    background: #dfc0dd;
+}
+#tor:hover{
+    background: #8d6948;
+}
+#az:hover{
+    background: #000000;
+}
+#col:hover{
+    background: #f3b5fc;
+}
+#lux:hover{
+    background: #000000;
+}
+.button:hover{
+    background: #FFF;
+}
+
+.swiper-navBtn{
+    color: #1B263B;
+    transition: all 0.3s ease;
+}
+.swiper-navBtn:hover{
+    color: #98acc9;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination.billet{
+    background-color: #415A77;
+    opacity: 1;
+}
+.swiper-pagination.billet-active{
+    background-color: #1B263B;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}

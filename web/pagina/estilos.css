@@ -1,0 +1,178 @@
+.container {
+    /* Podés visitar: https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox#el_modelo_flexible para entender el modelo Flexbox */
+    display: flex;
+    /* Establece el contenedor como un contenedor flex */
+    flex-wrap: wrap;
+    /* Permite que los elementos se envuelvan en líneas adicionales si no hay suficiente espacio */
+    justify-content: center;
+    /* Centra los elementos a lo largo del eje principal horizontal */
+    align-items: center;
+    /* Centra los elementos a lo largo del eje secundario vertical */
+    background-color: #d6ccc2;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+
+body {
+    background-color: #fbf6ef
+}
+
+
+header {
+
+    padding: 25px;
+    margin-right: 9px;
+}
+
+.encabezado {
+    display: flex;
+    /* Establece el encabezado como un contenedor flex */
+    align-items: baseline;
+    /* Alinea los elementos del encabezado a lo largo de la línea de base */
+    justify-content: space-between;
+}
+
+.container-title {
+    width: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-image {
+    color: #0d3b66;
+    text-align: center;
+    width: 100%;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 290px;
+}
+
+.imagen {
+    width: 100%;
+}
+
+.aside {
+    justify-content: center;
+    align-content: center;
+    display: inline-flex;
+    width: 100%;
+    background-color: #0d3b66
+}
+
+.imagengrande {
+    width: 100%;
+}
+
+
+.boxgrande {
+    margin: 10px;
+    text-align: center;
+    width: 800px;
+}
+
+#menu {
+
+    display: inline-flex;
+    list-style: none;
+
+
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', sans-serif;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.aside2 {
+    margin-right: 30px;
+}
+
+.imagen1 {
+    width: 500px;
+}
+
+.imagen-principal {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    margin-top: 60px;
+}
+
+.botones {
+    display: inline-flex;
+}
+
+a,
+.botones {
+    margin-left: 20px;
+}
+
+.footer-1 {
+    font-family: 'Asap', sans-serif;
+    font-size: 19px;
+
+}
+.footer-2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 19px;
+
+
+}
+.footer-3 {
+    font-family: 'Asap', sans-serif;
+
+
+}
+footer{
+    background-color: #ffffff;
+}
+h4{
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Staatliches', sans-serif;
+}
+ul{
+    list-style: none;
+}
+#redes{
+    display: inline-flex;
+}
+p{
+    font-family: 'Asap', sans-serif;
+    color: black;
+
+}
+.copy{
+    justify-content: center;
+    width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
+    font-family: 'Kameron', serif;
+    color: #808386;
+}
+#titulo{
+    font-family: 'Staatliches', sans-serif;
+color: #0d3b66;
+}
